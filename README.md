@@ -13,17 +13,21 @@ The script needs the following input (name of provided example files in brackets
 
 The shell script exec_pda.sh calls the software pda, that is used for calculation of phlyogenetic diversity complementarity. The path to the software needs to be specified in the script.
 
-The citation for pda: 
-Chernomor, O. et al. Split diversity in constrained conservation prioritization using integer linear programming. Methods Ecol. Evol. 6, 83–91 (2015).
-
 The software is available here: http://www.cibiv.at/software/pda/#download
 
-The shell script "extract_PD_compl_results.sh" extracts the values from the result files and the line numbers from the .out files need to be specified.
+The citation for pda: 
+Chernomor, O. et al. Split diversity in constrained conservation prioritization using integer linear programming. Methods Ecol. Evol. 6, 83–91 (2015). http://dx.doi.org/10.1111/2041-210X.12299
+
+
+The shell script "extract_PD_compl_results.sh" extracts the values from the result files and the line numbers from these .out files need to be specified.
+
+Note: This code has been scripted for a specific task and will not run without prior edits of the user - passages where such edits are necessary are commented.
+
 
 For information concerning the concept of phylogenetic diversity and related measures see:
 
-Faith 1992. Conservation evaluation and phylogenetic diversity, Biological Conservation, Volume 61, Issue 1, Pages 1-10, ISSN 0006-3207, https://doi.org/10.1016/0006-3207(92)91201-3
+Faith, D. P. Conservation evaluation and phylogenetic diversity. Biol. Conserv. 61, 1–10 (1992). https://doi.org/10.1016/0006-3207(92)91201-3
 
 
-Note: This code has been scripted for a specific task and will not run without edits by the user - passages where such edits are necessary are commented.
+
 
