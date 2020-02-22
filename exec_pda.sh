@@ -1,9 +1,9 @@
 #!/bin/bash
 
-liste="ls | grep area.nexus_*"
+list="ls | grep area.nexus_*"
+path_to_pda=""
 
-for i in $liste
+for i in $list
 do
-/home/philipp/apps/pda-1.0.3-Linux/bin/pda input.tree.nex $i.out -ts $i -compl Outgroup #use name of Outgroup in -compl flag
+$path_to_pda/pda input.tree.nex $i.out -ts $i -compl Outgroup #use name of Outgroup in -compl flag
 done
-
