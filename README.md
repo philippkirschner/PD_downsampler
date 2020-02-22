@@ -1,8 +1,7 @@
-# PD_downsampler
-Scripts to downsample PD complementarity and create a raster layer
+# Phylogenetic diversity complementarity calculation for taxa subsampled from raster grid cells
 
+The R script "donwsample_PD_compl.R" allows to subsample taxa from pre-defined raster grid cells, calculate phylogenetic diversity complementarity values for these grid cells, and summarize the results as median or mean values in a GIS raster layer in .asc format. 
 
- R script that allows to downsample taxa from pre-defined raster grid cells, calculate phylogenetic diversity complementarity values for this grid cells, and create a GIS raster ayer in .asc format. 
 The R script only works on linux as it relies on two shell scripts that are also provided.
 
 The script needs the following input (name of provided example files in brackets): 
