@@ -1,4 +1,4 @@
-# Phylogenetic diversity complementarity calculation for taxa subsampled from raster grid cells
+# Phylogenetic diversity complementarity calculation for individuals subsampled from raster grid cells
 
 The R script "donwsample_PD_compl.R" was designed to subsample taxa from pre-defined raster grid cells, calculate phylogenetic diversity complementarity values for these grid cells based on an underlying phylogenetic tree, and summarize the results as median or mean values in a GIS raster layer in .asc format. Please note that the script needs to be edited manually and will not run as it is - passages where edits are necessary are commented.
 
