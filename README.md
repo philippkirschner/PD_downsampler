@@ -14,7 +14,8 @@ The shell script exec_pda.sh calls the software pda from within R, that is used 
 
 The software is available here: http://www.cibiv.at/software/pda/#download
 
-The citation for pda: 
+If pda is used, please cite the authors of this software:
+
 Chernomor, O. et al. Split diversity in constrained conservation prioritization using integer linear programming. Methods Ecol. Evol. 6, 83–91 (2015). http://dx.doi.org/10.1111/2041-210X.12299
 
 
