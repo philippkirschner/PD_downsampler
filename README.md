@@ -5,7 +5,7 @@ The R script "donwsample_PD_compl.R" was designed to subsample taxa from pre-def
 The R script only works on linux as it relies on two shell scripts that are also provided.
 
 The following input data is needed (name of provided example files in brackets): 
-* A .csv file with the name of the locality in the first column and the associated tip labels in the following columns (input.csv)
+* A .csv file providing the names of the localities in the first column and the tip labels associated to the respective locality in the following columns (input.csv)
 * A phylogenetic tree in nexus format using the same tip labels as specified in the csv file (input.tree.nex)
 * A .csv file containing the coordinates of each grid cell in decimal format (Longitude, Latitude)  (coordinates_localities.csv)
 
